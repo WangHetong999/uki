@@ -1,0 +1,962 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		204DFA3D2E9D29BA00894147 /* uki Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 204DFA3C2E9D29BA00894147 /* uki Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		204DFA272E9D29BA00894147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 204DFA112E9D29B900894147 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 204DFA182E9D29B900894147;
+			remoteInfo = uki;
+		};
+		204DFA312E9D29BA00894147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 204DFA112E9D29B900894147 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 204DFA182E9D29B900894147;
+			remoteInfo = uki;
+		};
+		204DFA3E2E9D29BA00894147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 204DFA112E9D29B900894147 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 204DFA3B2E9D29BA00894147;
+			remoteInfo = "uki Watch App";
+		};
+		204DFA4C2E9D29BB00894147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 204DFA112E9D29B900894147 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 204DFA3B2E9D29BA00894147;
+			remoteInfo = "uki Watch App";
+		};
+		204DFA562E9D29BB00894147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 204DFA112E9D29B900894147 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 204DFA3B2E9D29BA00894147;
+			remoteInfo = "uki Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		204DFA622E9D29BB00894147 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				204DFA3D2E9D29BA00894147 /* uki Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		204DFA192E9D29B900894147 /* uki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		204DFA262E9D29BA00894147 /* ukiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ukiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		204DFA302E9D29BA00894147 /* ukiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ukiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		204DFA3C2E9D29BA00894147 /* uki Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "uki Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		204DFA4B2E9D29BB00894147 /* uki Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "uki Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		204DFA552E9D29BB00894147 /* uki Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "uki Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		204DFA1B2E9D29B900894147 /* uki */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = uki;
+			sourceTree = "<group>";
+		};
+		204DFA292E9D29BA00894147 /* ukiTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ukiTests;
+			sourceTree = "<group>";
+		};
+		204DFA332E9D29BA00894147 /* ukiUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ukiUITests;
+			sourceTree = "<group>";
+		};
+		204DFA402E9D29BA00894147 /* uki Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "uki Watch App";
+			sourceTree = "<group>";
+		};
+		204DFA4E2E9D29BB00894147 /* uki Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "uki Watch AppTests";
+			sourceTree = "<group>";
+		};
+		204DFA582E9D29BB00894147 /* uki Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "uki Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		204DFA162E9D29B900894147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204DFA232E9D29BA00894147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204DFA2D2E9D29BA00894147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204DFA392E9D29BA00894147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204DFA482E9D29BB00894147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204DFA522E9D29BB00894147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		204DFA102E9D29B900894147 = {
+			isa = PBXGroup;
+			children = (
+				204DFA1B2E9D29B900894147 /* uki */,
+				204DFA292E9D29BA00894147 /* ukiTests */,
+				204DFA332E9D29BA00894147 /* ukiUITests */,
+				204DFA402E9D29BA00894147 /* uki Watch App */,
+				204DFA4E2E9D29BB00894147 /* uki Watch AppTests */,
+				204DFA582E9D29BB00894147 /* uki Watch AppUITests */,
+				204DFA1A2E9D29B900894147 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		204DFA1A2E9D29B900894147 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				204DFA192E9D29B900894147 /* uki.app */,
+				204DFA262E9D29BA00894147 /* ukiTests.xctest */,
+				204DFA302E9D29BA00894147 /* ukiUITests.xctest */,
+				204DFA3C2E9D29BA00894147 /* uki Watch App.app */,
+				204DFA4B2E9D29BB00894147 /* uki Watch AppTests.xctest */,
+				204DFA552E9D29BB00894147 /* uki Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		204DFA182E9D29B900894147 /* uki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 204DFA632E9D29BB00894147 /* Build configuration list for PBXNativeTarget "uki" */;
+			buildPhases = (
+				204DFA152E9D29B900894147 /* Sources */,
+				204DFA162E9D29B900894147 /* Frameworks */,
+				204DFA172E9D29B900894147 /* Resources */,
+				204DFA622E9D29BB00894147 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				204DFA3F2E9D29BA00894147 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				204DFA1B2E9D29B900894147 /* uki */,
+			);
+			name = uki;
+			packageProductDependencies = (
+			);
+			productName = uki;
+			productReference = 204DFA192E9D29B900894147 /* uki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		204DFA252E9D29BA00894147 /* ukiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 204DFA662E9D29BB00894147 /* Build configuration list for PBXNativeTarget "ukiTests" */;
+			buildPhases = (
+				204DFA222E9D29BA00894147 /* Sources */,
+				204DFA232E9D29BA00894147 /* Frameworks */,
+				204DFA242E9D29BA00894147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				204DFA282E9D29BA00894147 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				204DFA292E9D29BA00894147 /* ukiTests */,
+			);
+			name = ukiTests;
+			packageProductDependencies = (
+			);
+			productName = ukiTests;
+			productReference = 204DFA262E9D29BA00894147 /* ukiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		204DFA2F2E9D29BA00894147 /* ukiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 204DFA692E9D29BB00894147 /* Build configuration list for PBXNativeTarget "ukiUITests" */;
+			buildPhases = (
+				204DFA2C2E9D29BA00894147 /* Sources */,
+				204DFA2D2E9D29BA00894147 /* Frameworks */,
+				204DFA2E2E9D29BA00894147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				204DFA322E9D29BA00894147 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				204DFA332E9D29BA00894147 /* ukiUITests */,
+			);
+			name = ukiUITests;
+			packageProductDependencies = (
+			);
+			productName = ukiUITests;
+			productReference = 204DFA302E9D29BA00894147 /* ukiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		204DFA3B2E9D29BA00894147 /* uki Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 204DFA5F2E9D29BB00894147 /* Build configuration list for PBXNativeTarget "uki Watch App" */;
+			buildPhases = (
+				204DFA382E9D29BA00894147 /* Sources */,
+				204DFA392E9D29BA00894147 /* Frameworks */,
+				204DFA3A2E9D29BA00894147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				204DFA402E9D29BA00894147 /* uki Watch App */,
+			);
+			name = "uki Watch App";
+			packageProductDependencies = (
+			);
+			productName = "uki Watch App";
+			productReference = 204DFA3C2E9D29BA00894147 /* uki Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		204DFA4A2E9D29BB00894147 /* uki Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 204DFA6C2E9D29BB00894147 /* Build configuration list for PBXNativeTarget "uki Watch AppTests" */;
+			buildPhases = (
+				204DFA472E9D29BB00894147 /* Sources */,
+				204DFA482E9D29BB00894147 /* Frameworks */,
+				204DFA492E9D29BB00894147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				204DFA4D2E9D29BB00894147 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				204DFA4E2E9D29BB00894147 /* uki Watch AppTests */,
+			);
+			name = "uki Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "uki Watch AppTests";
+			productReference = 204DFA4B2E9D29BB00894147 /* uki Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		204DFA542E9D29BB00894147 /* uki Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 204DFA6F2E9D29BB00894147 /* Build configuration list for PBXNativeTarget "uki Watch AppUITests" */;
+			buildPhases = (
+				204DFA512E9D29BB00894147 /* Sources */,
+				204DFA522E9D29BB00894147 /* Frameworks */,
+				204DFA532E9D29BB00894147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				204DFA572E9D29BB00894147 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				204DFA582E9D29BB00894147 /* uki Watch AppUITests */,
+			);
+			name = "uki Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "uki Watch AppUITests";
+			productReference = 204DFA552E9D29BB00894147 /* uki Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		204DFA112E9D29B900894147 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					204DFA182E9D29B900894147 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					204DFA252E9D29BA00894147 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 204DFA182E9D29B900894147;
+					};
+					204DFA2F2E9D29BA00894147 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 204DFA182E9D29B900894147;
+					};
+					204DFA3B2E9D29BA00894147 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					204DFA4A2E9D29BB00894147 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 204DFA3B2E9D29BA00894147;
+					};
+					204DFA542E9D29BB00894147 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 204DFA3B2E9D29BA00894147;
+					};
+				};
+			};
+			buildConfigurationList = 204DFA142E9D29B900894147 /* Build configuration list for PBXProject "uki" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 204DFA102E9D29B900894147;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 204DFA1A2E9D29B900894147 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				204DFA182E9D29B900894147 /* uki */,
+				204DFA252E9D29BA00894147 /* ukiTests */,
+				204DFA2F2E9D29BA00894147 /* ukiUITests */,
+				204DFA3B2E9D29BA00894147 /* uki Watch App */,
+				204DFA4A2E9D29BB00894147 /* uki Watch AppTests */,
+				204DFA542E9D29BB00894147 /* uki Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		204DFA172E9D29B900894147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204DFA242E9D29BA00894147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204DFA2E2E9D29BA00894147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204DFA3A2E9D29BA00894147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204DFA492E9D29BB00894147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204DFA532E9D29BB00894147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		204DFA152E9D29B900894147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204DFA222E9D29BA00894147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204DFA2C2E9D29BA00894147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204DFA382E9D29BA00894147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204DFA472E9D29BB00894147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204DFA512E9D29BB00894147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		204DFA282E9D29BA00894147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 204DFA182E9D29B900894147 /* uki */;
+			targetProxy = 204DFA272E9D29BA00894147 /* PBXContainerItemProxy */;
+		};
+		204DFA322E9D29BA00894147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 204DFA182E9D29B900894147 /* uki */;
+			targetProxy = 204DFA312E9D29BA00894147 /* PBXContainerItemProxy */;
+		};
+		204DFA3F2E9D29BA00894147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 204DFA3B2E9D29BA00894147 /* uki Watch App */;
+			targetProxy = 204DFA3E2E9D29BA00894147 /* PBXContainerItemProxy */;
+		};
+		204DFA4D2E9D29BB00894147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 204DFA3B2E9D29BA00894147 /* uki Watch App */;
+			targetProxy = 204DFA4C2E9D29BB00894147 /* PBXContainerItemProxy */;
+		};
+		204DFA572E9D29BB00894147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 204DFA3B2E9D29BA00894147 /* uki Watch App */;
+			targetProxy = 204DFA562E9D29BB00894147 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		204DFA5D2E9D29BB00894147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		204DFA5E2E9D29BB00894147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		204DFA602E9D29BB00894147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8PNMV7269;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = uki;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.uki.chat.uki;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uki.chat.uki.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		204DFA612E9D29BB00894147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8PNMV7269;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = uki;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.uki.chat.uki;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uki.chat.uki.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		204DFA642E9D29BB00894147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8PNMV7269;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = uki;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uki.chat.uki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		204DFA652E9D29BB00894147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8PNMV7269;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = uki;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uki.chat.uki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		204DFA672E9D29BB00894147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8PNMV7269;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uki.chat.ukiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uki.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/uki";
+			};
+			name = Debug;
+		};
+		204DFA682E9D29BB00894147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8PNMV7269;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uki.chat.ukiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uki.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/uki";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		204DFA6A2E9D29BB00894147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8PNMV7269;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uki.chat.ukiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = uki;
+			};
+			name = Debug;
+		};
+		204DFA6B2E9D29BB00894147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8PNMV7269;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uki.chat.ukiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = uki;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		204DFA6D2E9D29BB00894147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8PNMV7269;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uki.chat.uki-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uki Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/uki Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		204DFA6E2E9D29BB00894147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8PNMV7269;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uki.chat.uki-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/uki Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/uki Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		204DFA702E9D29BB00894147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8PNMV7269;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uki.chat.uki-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "uki Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		204DFA712E9D29BB00894147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8PNMV7269;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uki.chat.uki-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "uki Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		204DFA142E9D29B900894147 /* Build configuration list for PBXProject "uki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204DFA5D2E9D29BB00894147 /* Debug */,
+				204DFA5E2E9D29BB00894147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		204DFA5F2E9D29BB00894147 /* Build configuration list for PBXNativeTarget "uki Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204DFA602E9D29BB00894147 /* Debug */,
+				204DFA612E9D29BB00894147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		204DFA632E9D29BB00894147 /* Build configuration list for PBXNativeTarget "uki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204DFA642E9D29BB00894147 /* Debug */,
+				204DFA652E9D29BB00894147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		204DFA662E9D29BB00894147 /* Build configuration list for PBXNativeTarget "ukiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204DFA672E9D29BB00894147 /* Debug */,
+				204DFA682E9D29BB00894147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		204DFA692E9D29BB00894147 /* Build configuration list for PBXNativeTarget "ukiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204DFA6A2E9D29BB00894147 /* Debug */,
+				204DFA6B2E9D29BB00894147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		204DFA6C2E9D29BB00894147 /* Build configuration list for PBXNativeTarget "uki Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204DFA6D2E9D29BB00894147 /* Debug */,
+				204DFA6E2E9D29BB00894147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		204DFA6F2E9D29BB00894147 /* Build configuration list for PBXNativeTarget "uki Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204DFA702E9D29BB00894147 /* Debug */,
+				204DFA712E9D29BB00894147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 204DFA112E9D29B900894147 /* Project object */;
+}

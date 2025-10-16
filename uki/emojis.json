@@ -1,0 +1,19 @@
+{
+  "emojis": [
+    {
+      "id": "happy",
+      "image": "emoji_happy",
+      "description": "开心、兴奋、愉快"
+    },
+    {
+      "id": "sad",
+      "image": "emoji_sad",
+      "description": "难过、伤心"
+    },
+    {
+      "id": "thinking",
+      "image": "emoji_thinking",
+      "description": "思考、疑惑"
+    }
+  ]
+}
