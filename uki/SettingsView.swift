@@ -8,12 +8,16 @@
 import SwiftUI
 
 struct SettingsView: View {
+    @StateObject private var authService = AuthService.shared
     @State private var nickname = "小艾"
     @State private var age = "25"
     @State private var gender = "女"
     @State private var enableNotifications = true
     @State private var enableSound = true
     @State private var voiceSpeed: Double = 1.0
+    @State private var showLogoutConfirm = false
+    @State private var showLogoutError = false
+    @State private var errorMessage = ""
 
     var body: some View {
         Form {
@@ -29,6 +33,13 @@ struct SettingsView: View {
                             Text("🐲")
                                 .font(.system(size: 30))
                         )
+                }
+
+                HStack {
+                    Text("邮箱")
+                    Spacer()
+                    Text(authService.currentUser?.email ?? "未登录")
+                        .foregroundColor(.gray)
                 }
 
                 HStack {
@@ -122,7 +133,9 @@ struct SettingsView: View {
 
             // 退出登录
             Section {
-                Button(action: {}) {
+                Button(action: {
+                    showLogoutConfirm = true
+                }) {
                     HStack {
                         Spacer()
                         Text("退出登录")
@@ -134,6 +147,34 @@ struct SettingsView: View {
         }
         .navigationTitle("设置")
         .navigationBarTitleDisplayMode(.inline)
+        .alert("确认退出", isPresented: $showLogoutConfirm) {
+            Button("取消", role: .cancel) { }
+            Button("退出", role: .destructive) {
+                handleLogout()
+            }
+        } message: {
+            Text("确定要退出登录吗？")
+        }
+        .alert("退出失败", isPresented: $showLogoutError) {
+            Button("确定", role: .cancel) { }
+        } message: {
+            Text(errorMessage)
+        }
+    }
+
+    // MARK: - 退出登录
+
+    private func handleLogout() {
+        Task {
+            do {
+                try await authService.signOut()
+                // 登出成功后，AuthService 会自动更新 isAuthenticated
+                // ukiApp 会监听这个变化并切换到登录界面
+            } catch {
+                errorMessage = error.localizedDescription
+                showLogoutError = true
+            }
+        }
     }
 }
 

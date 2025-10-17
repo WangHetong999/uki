@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		204DFA3D2E9D29BA00894147 /* uki Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 204DFA3C2E9D29BA00894147 /* uki Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5A5BE1542EA22B4D009B2791 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 5A5BE1532EA22B4D009B2791 /* Supabase */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A5BE1542EA22B4D009B2791 /* Supabase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +161,7 @@
 				204DFA402E9D29BA00894147 /* uki Watch App */,
 				204DFA4E2E9D29BB00894147 /* uki Watch AppTests */,
 				204DFA582E9D29BB00894147 /* uki Watch AppUITests */,
+				5A5DBA162EA226970058F391 /* Frameworks */,
 				204DFA1A2E9D29B900894147 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -174,6 +177,13 @@
 				204DFA552E9D29BB00894147 /* uki Watch AppUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5A5DBA162EA226970058F391 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +208,7 @@
 			);
 			name = uki;
 			packageProductDependencies = (
+				5A5BE1532EA22B4D009B2791 /* Supabase */,
 			);
 			productName = uki;
 			productReference = 204DFA192E9D29B900894147 /* uki.app */;
@@ -360,6 +371,9 @@
 			);
 			mainGroup = 204DFA102E9D29B900894147;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5A5BE1522EA22B4D009B2791 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 204DFA1A2E9D29B900894147 /* Products */;
 			projectDirPath = "";
@@ -957,6 +971,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5A5BE1522EA22B4D009B2791 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5A5BE1532EA22B4D009B2791 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A5BE1522EA22B4D009B2791 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 204DFA112E9D29B900894147 /* Project object */;
 }

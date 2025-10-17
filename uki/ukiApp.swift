@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct ukiApp: App {
+    @StateObject private var authService = AuthService.shared
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if authService.isAuthenticated {
+                // 已登录 - 显示主应用界面
+                ContentView()
+            } else {
+                // 未登录 - 显示登录界面
+                LoginView()
+            }
         }
     }
 }
