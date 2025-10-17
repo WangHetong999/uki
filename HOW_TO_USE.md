@@ -203,9 +203,64 @@ ContentView
 - ✅ 自动播放语音
 - ✅ 保持对话上下文
 - ✅ 多页面导航
+- ✅ Apple Watch 端聊天（新增！）
 
-下一步你可以：
-- 添加 Apple Watch 端
-- 实现 iPhone 和 Watch 之间的同步
-- 美化 UI 界面
-- 添加更多功能（表情、图片等）
+---
+
+## ⌚ Apple Watch 端使用
+
+### 运行 Watch 应用
+
+1. **在 Xcode 中选择 Watch 模拟器**
+   - 顶部选择：`uki Watch App` scheme
+   - 选择模拟器：Apple Watch Series 9 (45mm) 或其他
+
+2. **运行应用**
+   - 按 `Cmd + R` 运行
+   - Watch 应用会在独立的 Watch 模拟器中启动
+
+3. **使用 Watch 应用**
+   - 点击"开始聊天"按钮
+   - 点击底部的 **消息按钮** 进行文本输入
+   - 点击底部的 **麦克风按钮** 进行语音输入
+   - AI 会回复文字或语音消息
+
+### Watch 端特性
+
+- **小屏优化**：更大的字体，更简洁的布局
+- **语音优先**：50% 概率发送语音消息（比 iPhone 更高）
+- **系统输入**：使用 watchOS 原生输入界面
+- **语音播放**：支持播放语音消息气泡
+- **无表情包**：移除了表情包功能（屏幕太小）
+
+### 注意事项
+
+1. **网络配置**
+   - Watch 模拟器使用 `localhost:8000`
+   - Watch 真机需要配置电脑 IP（与 iPhone 相同）
+
+2. **测试建议**
+   - 先在 iPhone 上测试后端连接
+   - 确保 `python server.py` 正在运行
+   - Watch 和 iPhone 共享相同的后端
+
+3. **文件结构**
+   ```
+   uki Watch App/
+   ├── ContentView.swift        # 入口
+   ├── HomeView.swift           # 主页（精简版）
+   ├── ChatView.swift           # 聊天页（小屏适配）
+   ├── NetworkService.swift     # 网络服务（与 iPhone 相同逻辑）
+   └── ukiApp.swift             # App 入口
+   ```
+
+---
+
+## 🔄 下一步开发方向
+
+- ✅ iPhone 端完成
+- ✅ Apple Watch 端完成
+- 🔲 iPhone ↔ Watch 对话同步 (Watch Connectivity)
+- 🔲 持久化存储对话历史
+- 🔲 数字人 3D 头像
+- 🔲 云端部署后端服务

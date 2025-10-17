@@ -15,16 +15,27 @@ This is **uki** - an iOS and watchOS companion chat application project built wi
 - `uki/` - iPhone app source code
   - `ukiApp.swift` - iOS app entry point
   - `ContentView.swift` - Main iOS view
+  - `HomeView.swift` - Home page with navigation
+  - `ChatView.swift` - Chat interface with streaming responses
+  - `VoiceCallView.swift` - Full-screen voice call interface
+  - `VoiceCallManager.swift` - Speech recognition and audio manager
+  - `NetworkService.swift` - HTTP/SSE network layer
+  - `SettingsView.swift` - Settings page
 - `uki Watch App/` - Apple Watch app source code
   - `ukiApp.swift` - watchOS app entry point
   - `ContentView.swift` - Main watch view
+  - `HomeView.swift` - Simplified home page
+  - `ChatView.swift` - Small-screen optimized chat interface
+  - `NetworkService.swift` - Network layer (same logic as iOS)
 
 ### Python Backend
-- `avatar_chat.py` - AI chat backend using:
+- `server.py` - Flask API server (currently in use):
   - **MiniMax API** for TTS (Text-to-Speech) via WebSocket
   - **SiliconFlow API** for LLM chat (Qwen3-14B model)
-  - Character: "嘎巴龙" (Gabaron) - a playful digital dragon from Gabaron planet
-  - Supports streaming responses with real-time voice synthesis
+  - Character: "uki" - a cool PhD-style digital companion
+  - Supports streaming responses (SSE) with optional voice synthesis
+  - Endpoints: `/chat` (SSE), `/tts` (MP3), `/health`
+- `avatar_chat.py` - Original CLI chat program (kept for reference)
 
 ### Test Targets
 - `ukiTests/` - iOS unit tests
@@ -51,13 +62,14 @@ xcodebuild test -project uki.xcodeproj -scheme uki -destination 'platform=iOS Si
 
 ### Python Backend
 ```bash
-# Run chat backend (requires Python dependencies)
-python avatar_chat.py
+# Run Flask API server (port 8000)
+python server.py
 
 # Dependencies needed:
+# - flask
+# - flask-cors
 # - websockets
 # - requests
-# - pydub
 ```
 
 ## Architecture Notes
@@ -65,7 +77,8 @@ python avatar_chat.py
 ### Multi-Platform Design
 - **iOS and watchOS share similar app structure** but have separate targets
 - Both use SwiftUI's declarative UI framework
-- Currently both apps show basic "Hello, world!" content
+- watchOS version is optimized for small screens with simplified UI
+- Both platforms connect to the same Python backend via HTTP/SSE
 
 ### AI Chat Backend Architecture
 - **Streaming chat**: Uses SiliconFlow API with Qwen3-14B LLM
@@ -74,32 +87,43 @@ python avatar_chat.py
 - **Async audio playback**: Uses asyncio queue for continuous audio playback while generating
 
 ### Key Integration Points
-The iOS/watchOS apps will need to:
-1. Integrate with the Python backend's chat API
-2. Handle WebSocket connections for real-time TTS
-3. Implement audio playback on device
-4. Sync conversation state between iPhone and Apple Watch
+The iOS/watchOS apps:
+1. ✅ Integrate with Python backend via HTTP/SSE streaming
+2. ✅ Request TTS audio via HTTP POST and play MP3 locally
+3. ✅ Implement audio playback using AVAudioPlayer
+4. 🔲 Sync conversation state between iPhone and Apple Watch (not yet implemented)
 
 ### API Configuration
 - MiniMax API: TTS with voice "bingjiao_didi", emotion-based synthesis
-- SiliconFlow API: Chat completions with streaming support
-- **Note**: API keys are currently hardcoded in `avatar_chat.py` (should be moved to secure storage)
+- SiliconFlow API: Chat completions with streaming support (Qwen3-14B)
+- **Note**: API keys are currently hardcoded in `server.py` (should be moved to secure storage)
 
 ## Current State
 
-The project is in early stage:
+The project is actively developed:
 - ✅ Xcode project created with iOS and watchOS targets
-- ✅ Python chat backend with AI character personality working
-- ⚠️ iOS/watchOS apps are using default templates
-- 🔲 No connection between Swift apps and Python backend yet
-- 🔲 Multi-page navigation not yet implemented
+- ✅ Python Flask backend (server.py) with AI character personality working
+- ✅ iOS app fully functional:
+  - Multi-page navigation (Home, Chat, Voice Call, Settings)
+  - Streaming chat with text and audio messages
+  - Real-time voice call with speech recognition
+  - Emoji system (random trigger every 10-15 messages)
+- ✅ watchOS app fully functional:
+  - Simplified home and chat interface
+  - Small-screen optimized UI
+  - Text and audio message support
+- ✅ Swift apps connected to Python backend via HTTP/SSE
+- 🔲 iPhone ↔ Watch conversation sync not yet implemented
 
 ## Next Steps for Development
 
-To turn this into a functional companion chat app:
-1. Implement SwiftUI navigation with multiple pages (Home, Chat, Settings)
-2. Create network layer in Swift to communicate with backend
-3. Decide on backend deployment: REST API, WebSocket, or cloud functions
-4. Implement Watch Connectivity framework for iPhone-Watch sync
-5. Add audio playback capabilities to Swift apps
-6. Design UI for chat interface with character personality
+To enhance the companion chat app:
+1. ✅ ~~Implement SwiftUI navigation with multiple pages~~
+2. ✅ ~~Create network layer in Swift to communicate with backend~~
+3. ✅ ~~Add audio playback capabilities to Swift apps~~
+4. ✅ ~~Design UI for chat interface with character personality~~
+5. ✅ ~~Build watchOS version~~
+6. 🔲 Implement Watch Connectivity framework for iPhone-Watch sync
+7. 🔲 Add persistent storage for conversation history
+8. 🔲 Deploy backend to cloud server
+9. 🔲 Add 3D avatar or Live2D character animation
